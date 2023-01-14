@@ -1,0 +1,53 @@
+.lendpopup{
+    width: 50%;
+    position: fixed;
+    height: 60%;
+    background-color: #444444; 
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 100;
+    margin: auto;
+    color: #EDEDED;
+    padding-left: 40px;
+}
+
+
+.getrewards{    
+    position:absolute;
+    top:40px;
+    right: 120px;  
+    color: white;    
+    z-index: 1000;
+}
+
+
+.btnown3{
+    padding: 5px;    
+    height: 35px;
+    border-radius: 20px;
+    width: 120px;
+    background-color:#da003700;
+    /* background-image:linear-gradient(to right ,#FA58B6,#7A0BC0); */
+    border: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color:white;    
+    border: 1px solid white;  
+}
+
+
+.btnown3:hover{
+
+
+    cursor: pointer;
+    /* background-image:linear-gradient(to right ,#FA58B6,#7A0BC0); */
+    background-color: #ff1058;
+    transform: scale(1.09);
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px 1px rgba(167, 162, 162, 0.377);
+    border: 0px;
+}

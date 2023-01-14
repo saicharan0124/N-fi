@@ -1,0 +1,32 @@
+
+.leftnav-outer{
+    height: 100%;
+    position:fixed;
+    left: 0;
+    top:0;
+    width: 310px;
+    z-index: 10;
+    background-color: rgb(50, 50, 50);
+    color:white;
+}
+
+.leftnav-outer .leftnav-profile{
+    padding-top: 80px;
+    width:100%;
+    height: 45%;
+
+
+}
+
+.leftnav-profile img{
+    object-fit: cover;
+    margin-left: 25%;
+    width: 55%;
+    height: 100%;
+    border-radius:100%;
+    overflow: hidden;
+}
+
+.leftnav-p-inner{
+    margin-left: 5%;
+}

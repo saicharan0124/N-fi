@@ -1,0 +1,72 @@
+.nav-bar{
+    background-color:#444444;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 0px 2px 2px rgba(103, 103, 103, 0.262);
+    position: relative;
+    padding-left:7% ;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.nav-bar .btn{
+    padding: 5px;
+    margin-left: 5%;
+    height: 60%;
+    border-radius: 20px;
+    width: 130px;
+    /* background-color:#DA0037; */
+    background-color: rgba(250, 235, 215, 0);
+    border: 0px;
+    font-size: 1.2 rem;
+    font-weight: 700;
+    color:white;    
+    margin-top: 9%;
+}
+
+
+.nft-logo{
+    margin:10px 10px;
+    font-size: 30px;
+    /* color:#DA0037; */
+    color:#ff1058;
+    
+}
+
+.nav-bar .btn-r{
+    position: absolute;
+    top: 18%;
+    right: 30px;
+    padding: 5px;
+    height: 60%;
+    border-radius: 20px;
+    width: 160px;
+    /* background-color:#DA0037; */
+    background-color: rgba(250, 235, 215, 0);
+    border: 0px;
+    font-size: 1.2 rem;
+    font-weight: 700;
+    color:white;    
+   
+}
+
+.btn:hover{
+    cursor: pointer;
+    /* background-image:linear-gradient(to right ,#FA58B6,#7A0BC0); */
+   background-color: #ff1058;
+    transform: scale(1.008);
+    transition: 0.2s;
+    box-shadow: 1px 1px 5px 1px rgba(167, 162, 162, 0.377);
+}
+
+.btn-r:hover{
+    cursor: pointer;
+    /* background-image:linear-gradient(to right ,#FA58B6,#7A0BC0); */
+    background-color: #ff1058;
+    transform: scale(1.008);
+    transition: 0.2s;
+    box-shadow: 1px 1px 5px 1px rgba(167, 162, 162, 0.377);
+}
+
+

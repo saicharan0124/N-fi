@@ -1,0 +1,5 @@
+*install curl in windows 
+-->
+curl -X GET https://api.covalenthq.com/v1/1/block_v2/5000000/ \ -u ckey_c82c03baf39945ddb75a28c7dcf: -H 'Content-Type: application/json'
+
+*after creating covalent api add the key to moralis server including ckey_....

@@ -1,0 +1,152 @@
+.ownednft{
+    width: 70%;
+    position: fixed;
+    height: 70%;
+    background-color: #444444; 
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 100;
+    margin: auto;
+    color: #EDEDED;
+    
+    
+    
+}
+
+#nft-price-2{
+   
+    font-size: 32px;
+    padding-bottom: 10px;
+    
+}
+
+.ownednft h2{
+    color: #ff1058;
+}
+
+.back{
+    background-color: rgba(0, 0, 0, 0.837);
+    width: 100%;
+    height:100% ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.ownednft img{
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit:cover;
+    background-color: rgb(252, 200, 200);
+    
+
+}
+
+.ownednft .innerdiv{
+
+    padding: 30px;
+    font-size: 1rem;
+    
+
+}
+
+.btnown{
+
+    padding: 5px;
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+    height: 35px;
+    border-radius: 20px;
+    width: 90px;
+    background-color:#da003700;
+    /* background-image:linear-gradient(to right ,#FA58B6,#7A0BC0); */
+    border: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color:white;    
+    border: 1px solid white;  
+}
+
+.btnown2{
+
+    padding: 5px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    height: 35px;
+    border-radius: 20px;
+    width: 90px;
+    background-color:#da003700;
+    /* background-image:linear-gradient(to right ,#FA58B6,#7A0BC0); */
+    border: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color:white;  
+    border: 1px solid white;  
+    
+}
+
+.btnown2:hover,.btnown:hover{
+    cursor: pointer;
+    /* background-image:linear-gradient(to right ,#FA58B6,#7A0BC0); */
+    background-color: #ff1058;
+    transform: scale(1.09);
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px 1px rgba(167, 162, 162, 0.377);
+    border: 0px;
+}
+
+
+#matic-2{
+    width: 50px;
+    height: 60px;    
+    padding-top: 20px;
+    padding-left: 5px;
+    background-color: transparent;  
+    
+    
+}
+
+@media screen and (max-width:1100px) {
+
+    .ownednft{
+        display: block;
+        height: 80%;
+    }
+
+    .ownednft img{
+        width: 100%;
+        height: 40%;
+        border-radius: 8px;
+        object-fit:contain;
+        
+    
+    }
+
+    .ownednft .innerdiv{
+        font-size: 10px;
+    }
+
+    #nft-price-2{
+   
+        font-size: 22px;
+        
+    }
+
+    .nft-detail-2{
+        font-size: 0.7rem  !important;
+    }
+    
+}
+
+
+.nft-detail-2{
+    font-size: 0.9rem ;
+}

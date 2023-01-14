@@ -1,0 +1,53 @@
+{
+  "name": "react-complete-guide",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://polywars.space",
+  "dependencies": {
+    "@maticnetwork/maticjs": "^3.4.0-beta.0",
+    "@maticnetwork/maticjs-ethers": "^1.0.2",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "@web-std/fetch": "^4.1.0",
+    "bignumber.js": "^9.1.0",
+    "moralis": "^1.7.0",
+    "nft.storage": "^7.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "react-moralis": "^1.3.5",
+    "react-router-dom": "^5.3.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

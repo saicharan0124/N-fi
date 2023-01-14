@@ -1,0 +1,60 @@
+.spopup{
+    width: 50%;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 50vh;
+    /* background-image:linear-gradient(to right,rgb(17, 228, 147),rgb(16, 128, 226)); */
+    background-color: #444444; 
+    border-radius: 17px;
+    padding: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
+   z-index: 100;
+   color: white;
+}
+
+
+.spopup form input{
+    display: block;
+   padding: 2.5%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    width: 80%;
+    border:0px;
+    height: 30px;
+    border-bottom: 1px solid black ;
+    border-radius: 20px;
+}
+
+.spopup form input:focus{
+    outline: none;
+    background-color: rgb(243, 243, 243);
+}
+
+.spopup .btnown{
+    position: absolute;
+    top:70%;
+    right:10%;
+
+
+}
+
+.spopup select {
+
+        width: 100px;
+        height: 40px;
+        margin-left: 10px;
+        border-radius:8px;
+        border: 1px solid black;
+}
+
+
+
+.spopup #splittersubmit{
+    position: absolute;
+    top:70%;
+    right:25%;
+}
+

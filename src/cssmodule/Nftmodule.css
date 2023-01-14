@@ -1,0 +1,45 @@
+.nftmodule{
+    margin: 5px;
+    margin-top: 30px;
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.nftmodule li{
+    list-style: none;
+}
+
+.summa{
+    height: 500px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2em;
+    margin-left:0;
+}
+
+@media screen and (max-width:1280px){
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 2em;
+    }
+
+}
+
+@media screen and (max-width:900px){
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 80%;
+        gap: 2em;
+    }
+
+}

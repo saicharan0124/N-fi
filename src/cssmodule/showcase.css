@@ -1,0 +1,21 @@
+.showcase-1{
+    height: 60vh;
+    width:100%;
+    margin-top: 9px;
+    /* background-image:linear-gradient(to right ,#E14594,#ED6363); */
+    background-image:linear-gradient(to right ,#FA58B6,#7A0BC0);
+    padding: 30px;
+    
+}
+
+.showcase-1 h1{
+    font-size: 60px;
+    color: #EEEEEE;
+}
+
+.showcase-1 p{
+    font-size: 20px;
+    color:#EDEDED;
+    text-align: left;
+    width: 50%;
+}
